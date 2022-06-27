@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bEnd_graphDat"
+    android:background="@color/grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRAPH DATABASES"
+            android:textSize="23sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="110dp">
+
+        <TextView
+            android:id="@+id/topics1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neo4j"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp">
+
+        <TextView
+            android:id="@+id/knowledgeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KNOWLEDGE"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="220dp">
+
+        <TextView
+            android:id="@+id/b_gdatKnowledgeInt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="260dp">
+
+        <SeekBar
+            android:id="@+id/b_gdat_knowledge"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:min="0"
+            android:max="10"
+            android:progress="0"
+            android:layout_marginTop="20dp"
+            android:thumbTint="@color/blue"
+            android:layout_centerHorizontal="true"/>/>
+    </RelativeLayout>
+
+</RelativeLayout>

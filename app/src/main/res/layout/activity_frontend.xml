@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".frontend"
+        android:background="@color/grey">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KNOWLEDGE"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp">
+
+            <TextView
+                android:id="@+id/f_knowledge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%0"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="140dp">
+
+            <Button
+                android:id="@+id/fEnd0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WHAT IS FRONTEND DEVELOPMENT?"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="240dp">
+
+            <TextView
+                android:id="@+id/topics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOPICS"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="300dp">
+
+            <Button
+                android:id="@+id/fEnd1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="INTERNET"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="380dp">
+
+            <Button
+                android:id="@+id/fEnd2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HTML"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="460dp">
+
+            <Button
+                android:id="@+id/fEnd3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CSS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="540dp">
+
+            <Button
+                android:id="@+id/fEnd4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="JAVASCRIPT"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="620dp">
+
+            <Button
+                android:id="@+id/fEnd5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="VERSION CONTROL SYSTEMS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="700dp">
+
+            <Button
+                android:id="@+id/fEnd6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WEB SECURITY"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="780dp">
+
+            <Button
+                android:id="@+id/fEnd7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PACKAGE MANAGERS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="860dp">
+
+            <Button
+                android:id="@+id/fEnd8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CSS ARCHITECTURE"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="940dp">
+
+            <Button
+                android:id="@+id/fEnd9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CSS PREPROCESSORS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1020dp">
+
+            <Button
+                android:id="@+id/fEnd10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BUILD TOOLS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1100dp">
+
+            <Button
+                android:id="@+id/fEnd11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FRAMEWORKS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1180dp">
+
+            <Button
+                android:id="@+id/fEnd12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MODERN CSS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1260dp">
+
+            <Button
+                android:id="@+id/fEnd13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WEB COMPONENTS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1340dp">
+
+            <Button
+                android:id="@+id/fEnd14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CSS FRAMEWORKS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1420dp">
+
+            <Button
+                android:id="@+id/fEnd15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TESTING THE APP"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1500dp">
+
+            <Button
+                android:id="@+id/fEnd16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TYPE CHECKERS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1580dp">
+
+            <Button
+                android:id="@+id/fEnd17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PROGRESSIVE WEB APPS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1660dp">
+
+            <Button
+                android:id="@+id/fEnd18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SERVER SIDE RENDERING (SSR)"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1740dp">
+
+            <Button
+                android:id="@+id/fEnd19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GRAPHQL"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1820dp">
+
+            <Button
+                android:id="@+id/fEnd20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="STATIC SITE GENERATORS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1900dp">
+
+            <Button
+                android:id="@+id/fEnd21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MOBILE APPLICATIONS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="1980dp">
+
+            <Button
+                android:id="@+id/fEnd22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DESKTOP APPLICATIONS"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="2060dp">
+
+            <Button
+                android:id="@+id/fEnd23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="WEB ASSEMBLY"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginTop="2140dp">
+
+            <Button
+                android:id="@+id/fEnd24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="             "
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

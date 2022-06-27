@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fEnd_whatIs"
+    android:background="@color/grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/fEnd_title"
+            android:paddingLeft="30sp"
+            android:paddingRight="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="Frontend development manages everything that users visually see first in their browser or application. Frontend developers are responsible for the look and feel of a site. "
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+</RelativeLayout>
